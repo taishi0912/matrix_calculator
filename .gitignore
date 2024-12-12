@@ -1,0 +1,19 @@
+cat << EOF > .gitignore
+# 仮想環境
+venv/
+
+# Pythonキャッシュファイル
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS系ファイル
+.DS_Store
+
+# IDEの設定ファイル
+.idea/
+.vscode/
+
+# ローカル設定
+*.env
+EOF
